@@ -12,19 +12,8 @@
     <PackageReference Include="MoonSharp" Version="2.0.0" />
     <PackageReference Include="MoonSharp.Debugger.VsCode" Version="2.0.0" />
   </ItemGroup>
-  
 
   <ItemGroup>
-    <Reference Include="gdio.common.objects">
-      <HintPath>..\..\Assets\GDIO\gdio.common.objects.dll</HintPath>
-    </Reference>
-    <Reference Include="gdio.plugin.serializer">
-      <HintPath>..\..\Assets\GDIO\gdio.plugin.serializer.dll</HintPath>
-    </Reference>
-    <Reference Include="gdio.unity_api">
-      <HintPath>..\..\Assets\GDIO\gdio.unity_api.dll</HintPath>
-    </Reference>
-
     <Content Include="test.lua">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
